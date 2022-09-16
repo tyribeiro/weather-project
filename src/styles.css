@@ -1,0 +1,66 @@
+body {
+	background-color: rgb(150, 187, 187);
+	font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+.description-info,
+.humidity-info,
+.wind-info {
+	font-weight: 700;
+}
+.card {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 200px;
+	height: 30rem;
+	width: 40rem;
+	border: solid 0.3em rgb(97, 137, 133);
+	border-radius: 10px;
+	background-color: rgb(242, 227, 188);
+}
+.city {
+	padding-top: 2em;
+}
+.search {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+input.search-bar {
+	border: none;
+	outline: none;
+	padding: 0.4em 2em;
+	border-radius: 24px;
+	background: rgba(65, 69, 53, 0.3);
+	color: rgb(255, 255, 255);
+	font-family: inherit;
+	font-size: 105%;
+	width: calc(100% - 300px);
+}
+
+.btn {
+	margin-top: 6%;
+	border-style: none;
+	color: rgb(0, 0, 0);
+	transition: 0.2s ease-in-out;
+	text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.btn:hover {
+	font-size: 20px;
+}
+
+.search-bar {
+	margin-top: 6%;
+}
+
+.weather-loading {
+	color: rgb(65, 69, 53);
+	text-align: center;
+}
