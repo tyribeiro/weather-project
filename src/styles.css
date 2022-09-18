@@ -15,7 +15,7 @@ h2 {
 	font-weight: 700;
 }
 .card {
-	display: block;
+	display: flex;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 200px;
