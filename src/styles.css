@@ -2,7 +2,7 @@ body {
 	background-color: rgb(150, 187, 187);
 	font-family: "Open Sans", sans-serif;
 	display: flex;
-	width: 75%;
+	width: 100%;
 }
 
 h2 {
@@ -20,7 +20,7 @@ h2 {
 	margin-left: auto;
 	margin-top: 200px;
 	height: 30rem;
-	width: 75%;
+	width: 100%;
 	border: solid 0.3em rgb(97, 137, 133);
 	border-radius: 10px;
 	background-color: rgb(242, 227, 188);
