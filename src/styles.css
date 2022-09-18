@@ -2,7 +2,7 @@ body {
 	background-color: rgb(150, 187, 187);
 	font-family: "Open Sans", sans-serif;
 	display: flex;
-	width: 100%;
+	width: 75%;
 }
 
 h2 {
@@ -20,7 +20,7 @@ h2 {
 	margin-left: auto;
 	margin-top: 200px;
 	height: 30rem;
-	width: 100%;
+	width: 75%;
 	border: solid 0.3em rgb(97, 137, 133);
 	border-radius: 10px;
 	background-color: rgb(242, 227, 188);
@@ -43,7 +43,7 @@ input.search-bar {
 	color: rgb(255, 255, 255);
 	font-family: inherit;
 	font-size: 105%;
-	width: calc(100% - 300px);
+	width: calc(100% - 200px);
 }
 
 .btn {
